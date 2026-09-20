@@ -1,0 +1,20 @@
+# Local environments and Python caches
+.coupon_deps/
+.model_deps/
+.surprise_deps/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Downloaded competition data and generated artifacts
+coupon_eda_work/
+coupon_purchase_prediction_download/
+model_outputs*/
+
+# Local credentials
+.env
+.env.*
+!.env.example
+kaggle.json
